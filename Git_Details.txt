@@ -1,0 +1,8 @@
+Cuando los archivos no esten en staging
+para 
+para eliminar los cambios usamos:
+$ git checkout -- [filename.ext]
+
+
+Cuando los archivos esten en staging y deseamos que pasen a no staging
+$ git reset HEAD [filename.ext]
